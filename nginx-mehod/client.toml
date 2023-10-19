@@ -1,0 +1,6 @@
+# client.toml
+[client]
+remote_addr = "www:800" # 服务器的地址。端口必须与 `server.bind_addr` 中的端口相同。
+[client.services.heucopier]
+token = "www" # 必须与服务器相同以通过验证
+local_addr = "127.0.0.1:8000" # 需要被转发的服务的地址
